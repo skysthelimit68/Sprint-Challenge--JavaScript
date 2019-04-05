@@ -43,7 +43,7 @@ function greeting (firstName, lastName) {
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
-// Explanation: internal's lexical scope is myFunction(), and it has closure that saves it to be used for myFunction()'s nested functions.   
+// Explanation: internal's lexical scope is myFunction(), and it has closure that saves it to be used for any function that's nested inside myFunction().   
 
 
 const external = "I'm outside the function";
